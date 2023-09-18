@@ -1,6 +1,63 @@
 /* RESET */
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* COMMON */
+
+.container {
+    width: 70%;
+    margin: auto;
+    display: inline-block;
+}
+
+.border {
+    border: 1px dashed black;  
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* HEADER */
+.header-top{
+    background-color: #add8e6;
+    padding: 0.85rem;
+}
+
+/* NAV */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #daa520;
+    font-size: 1.5rem;
+}
+
+.link-section{
+    flex-grow: 4;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px ;
+}
+
+li{
+    padding: 0 10px;
+}
+
+.logo, .login {
+    flex-grow: 2;
+    padding: 10px 10px;
+}
+
+.login{
+    text-align: end;
+    text-decoration: none;
+    color: black;
 }
