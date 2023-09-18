@@ -85,7 +85,9 @@ hr{
 }
 
 /* MAIN */
-
+.section-2 {
+    background-color: #d3d3d3;
+}
 .article {
     display: flex;
     background-color: yellow;
