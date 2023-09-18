@@ -22,9 +22,19 @@ ul {
 }
 
 /* HEADER */
+
 .header-top{
     background-color: #add8e6;
     padding: 0.85rem;
+}
+
+.header-bottom{
+    background-color: #00008b;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 /* NAV */
@@ -60,4 +70,15 @@ li{
     text-align: end;
     text-decoration: none;
     color: black;
+}
+
+/* BANNER */
+.banner{
+    background-color: #ee82ee;
+    height: 300px;
+    width: 50%;
+}
+
+hr{
+    border: 3px solid #92b6d8;
 }
