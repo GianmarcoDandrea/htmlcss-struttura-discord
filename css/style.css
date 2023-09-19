@@ -52,6 +52,7 @@ ul {
 
 .nav {
     display: flex;
+
     background-color: #daa520;
     font-size: 1.5rem;
 }
